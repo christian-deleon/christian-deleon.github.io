@@ -1,96 +1,130 @@
 .hero {
-    position: relative;
-    width: 100vw;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    padding-left: 50px;
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding-left: 50px;
 }
 
 .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 120%;
-    height: 100%;
-    background: url(../../assets/images/home-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 100%;
+  background: url(../../assets/images/home-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .hero-content::before {
-    content: "";
-    background-size: cover;
-    position: absolute;
-    top: -25px;
-    left: -30px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../../assets/images/cross.png);
+  content: "";
+  background-size: cover;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  height: 50px;
+  width: 50px;
+  background-image: url(../../assets/images/cross.png);
 }
 
 .hero-content {
-    position: relative;
-    color: white;
+  position: relative;
+  color: white;
 }
 
 .hero__heading {
-    margin: 0;
-    font-weight: 500;
+  margin: 0;
+  font-weight: 500;
 }
 
 .hero__header-soft {
-    font-size: 3rem;
-    font-weight: 400;
-    opacity: 60%;
+  font-size: 3rem;
+  font-weight: 400;
+  opacity: 60%;
 }
 
 @media screen and (min-width: 768px) {
-    .hero__heading {
-        font-size: 5rem;
-        font-weight: 500;
-    }
-    
-    .hero__header-soft {
-        font-size: 4rem;
-        font-weight: 400;
-    }
+  .hero__heading {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+
+  .hero__header-soft {
+    font-size: 4rem;
+    font-weight: 400;
+  }
 }
 
 /* About */
 
 .about-container {
-    background-color: var(--color-secondary);
-    margin: 2rem auto;
+  background-color: var(--color-secondary);
+  margin: 2rem auto;
+}
+
+.about__content > p {
+  margin: 0;
+}
+
+.about-image {
+  height: auto;
+  padding: 2rem;
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
 }
 
 /* Intro */
 
-.intro-image {
-    height: auto;
-    width: 100%;
-    padding: 4rem;
-    justify-self: center;
-    align-self: center;
-}
-
 .about__content {
-    color: white;
-    margin: 6rem 4rem;
+  color: white;
+  margin: 6rem 4rem;
 }
 
 .about__content > h2 {
-    font-size: 3rem;
-}
-
-.about__content > p {
-    opacity: 80%;
+  font-size: 3rem;
+  opacity: 80%;
 }
 
 .heading-highlight {
-    color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+/* AWS Certs */
+
+.aws-services__list {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  max-lines: 8;
+}
+
+.aws-services {
+  margin: 1rem 0 0 0;
+}
+
+@media screen and (max-width: 767px) {
+  .about-image:nth-child(odd) {
+    grid-row: 2;
+  }
+
+  .about-image {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .aws-services__list {
+    flex-direction: row;
+  }
+
+  .about-image {
+    max-height: 400px;
+  }
 }
