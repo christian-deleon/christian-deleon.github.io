@@ -15,6 +15,23 @@ body, html {
     background-image: linear-gradient(var(--color-primary), #0094C9);
 }
 
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
 .list {
     list-style: none;
     padding-left: 0;
@@ -29,11 +46,24 @@ a {
 /* Blocks */
 
 .block {
-    --padding-vertical: 6rem;
-    padding: var(--padding-vertical) 2rem;
+    padding: 0 2rem;
+    top: -70px;
+    position: relative;
 }
 
 .container {
     max-width: 1024px;
     margin: 0 auto;
+}
+
+/* Grids */
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

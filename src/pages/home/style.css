@@ -40,7 +40,6 @@
 
 .hero__heading {
     margin: 0;
-    font-size: 4rem;
     font-weight: 500;
 }
 
@@ -52,7 +51,6 @@
 
 @media screen and (min-width: 768px) {
     .hero__heading {
-        margin: 0;
         font-size: 5rem;
         font-weight: 500;
     }
@@ -60,6 +58,39 @@
     .hero__header-soft {
         font-size: 4rem;
         font-weight: 400;
-        opacity: 60%;
     }
+}
+
+/* About */
+
+.about-container {
+    background-color: var(--color-secondary);
+    margin: 2rem auto;
+}
+
+/* Intro */
+
+.intro-image {
+    height: auto;
+    width: 100%;
+    padding: 4rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.about__content {
+    color: white;
+    margin: 6rem 4rem;
+}
+
+.about__content > h2 {
+    font-size: 3rem;
+}
+
+.about__content > p {
+    opacity: 80%;
+}
+
+.heading-highlight {
+    color: var(--color-primary);
 }
