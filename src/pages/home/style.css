@@ -11,26 +11,15 @@
 
 .hero::before {
   content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120%;
-  height: 100%;
   background: url(../../assets/images/home-bg.png);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-}
-
-.hero-content::before {
-  content: "";
-  background-size: cover;
+  height: 100%;
+  left: 0;
   position: absolute;
-  top: -25px;
-  left: -30px;
-  height: 50px;
-  width: 50px;
-  background-image: url(../../assets/images/cross.png);
+  top: 0;
+  width: 120%;
 }
 
 .hero-content {
@@ -38,9 +27,20 @@
   color: white;
 }
 
-.hero__heading {
+.hero-content::before {
+  background-image: url(../../assets/images/cross.png);
+  background-size: cover;
+  content: "";
+  height: 50px;
+  left: -30px;
+  position: absolute;
+  top: -34px;
+  width: 50px;
+}
+
+.hero__heading,
+.hero__header-soft {
   margin: 0;
-  font-weight: 500;
 }
 
 .hero__header-soft {
@@ -54,7 +54,7 @@
     font-size: 5rem;
     font-weight: 500;
   }
-  
+
   .hero__header-soft {
     font-size: 4rem;
     font-weight: 400;
@@ -95,6 +95,9 @@
 
 .about__content > h2 {
   font-size: 3rem;
+}
+
+.about__content > p {
   opacity: 80%;
 }
 
@@ -105,10 +108,19 @@
 /* AWS Certs */
 
 .aws-services__list {
-  display: flex;
-  flex-direction: column;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
   font-size: 1.2rem;
   max-lines: 8;
+}
+
+.aws-services__list > ul {
+  margin: 0;
+  opacity: 80%;
 }
 
 .aws-services {

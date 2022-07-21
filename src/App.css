@@ -1,69 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-    --color-primary: #04AFEC;
-    --color-secondary: #2D2D2D;
-    --color-headings: #1b0760;
-    --color-body: #918ca4;
+  --color-primary: #04afec;
+  --color-secondary: #2d2d2d;
 }
 
-body, html {
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%;
-    height: 100%;
-    margin: 0;
-    background-image: linear-gradient(var(--color-primary), #0094C9);
+body,
+html {
+  background-image: linear-gradient(var(--color-primary), #0094c9);
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  height: 100%;
+  margin: 0;
 }
 
 h1 {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 h2 {
-    font-size: 3rem;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 p {
-    font-size: 1.5rem;
-    margin-top: 0;
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
 .list {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 /* Links */
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Blocks */
 
 .block {
-    padding: 0 2rem;
-    top: -70px;
-    position: relative;
+  padding: 0 2rem;
+  position: relative;
+  top: -70px;
 }
 
 .container {
-    max-width: 1024px;
-    margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 /* Grids */
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 @media screen and (min-width: 768px) {
-    .grid--1x2 {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
