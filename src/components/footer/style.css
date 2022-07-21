@@ -1,0 +1,10 @@
+.footer-block {
+  width: 100vw;
+  background-color: var(--color-secondary);
+}
+
+.footer-container {
+  padding: 2rem 4rem;
+  color: white;
+  text-align: center;
+}
