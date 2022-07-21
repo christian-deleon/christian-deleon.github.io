@@ -15,13 +15,9 @@ class Home extends Component {
       <React.Fragment>
         <section className="hero">
           <div className="container hero-content">
-            <h1 className="hero__heading">
-              <span className="hero__header-soft">Hello, I'm</span>
-              <br />
-              Christian De Leon
-              <br />
-              <span className="hero__header-soft">Cloud Engineer</span>
-            </h1>
+            <h1 className="hero__header-soft">Hello, I'm</h1>
+            <h1 className="hero__heading">Christian De Leon</h1>
+            <h1 className="hero__header-soft">Cloud Engineer</h1>
           </div>
         </section>
 
