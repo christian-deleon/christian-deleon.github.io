@@ -128,3 +128,36 @@
     max-height: 400px;
   }
 }
+
+/* Skills */
+
+.skills-container {
+  padding: 0.5rem;
+}
+
+.skills__heading {
+  text-align: center;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+.skill-container {
+  padding: 2rem;
+}
+
+.skill-badge { 
+  width: 100%; 
+  filter: invert(78%) sepia(68%) saturate(5631%) hue-rotate(159deg) brightness(95%) contrast(97%);
+}
+
+.skill-name {
+  margin-top: 1rem;
+  text-align: center;
+}

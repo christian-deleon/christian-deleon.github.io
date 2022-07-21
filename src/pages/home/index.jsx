@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import Infra1 from "../../assets/images/infra-1.png";
 import AWSCerts from "../../assets/images/aws-certs.png";
+import { getSkills } from "./skills";
+import sprite from "../../assets/svg/sprite.svg";
 import "./style.css";
 
 class Home extends Component {
+  state = {
+    skills: getSkills(),
+  };
+
   render() {
     return (
       <React.Fragment>
@@ -96,14 +102,23 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="container grid grid--1x2 about-container">
+          <div className="container about-container skills-container">
             <div className="about__content">
-              <h2 className="about__heading">Heading</h2>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-                dolorem cupiditate ex, assumenda omnis est incidunt repellat
-                sunt mollitia corporis?
-              </p>
+              <h2 className="skills__heading">
+                MY <span className="heading-highlight">SKILLSET</span>
+              </h2>
+              <div className="skills-grid">
+                {this.state.skills.map((skill) => {
+                  return (
+                    <div className="skill-container">
+                      <svg className="skill-badge">
+                        <use href={sprite + `#${skill.svgName}`}></use>
+                      </svg>
+                      <h3 className="skill-name">{skill.name}</h3>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </section>
