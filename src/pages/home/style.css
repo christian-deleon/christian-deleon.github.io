@@ -1,10 +1,12 @@
 .hero {
     position: relative;
     width: 100vw;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    padding-left: 50px;
 }
 
 .hero::before {
@@ -12,12 +14,23 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 120%;
     height: 100%;
     background: url(../../assets/images/home-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.hero-content::before {
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    height: 50px;
+    width: 50px;
+    background-image: url(../../assets/images/cross.png);
 }
 
 .hero-content {
@@ -35,4 +48,18 @@
     font-size: 3rem;
     font-weight: 400;
     opacity: 60%;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__heading {
+        margin: 0;
+        font-size: 5rem;
+        font-weight: 500;
+    }
+    
+    .hero__header-soft {
+        font-size: 4rem;
+        font-weight: 400;
+        opacity: 60%;
+    }
 }
