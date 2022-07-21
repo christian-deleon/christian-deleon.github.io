@@ -79,24 +79,24 @@ class Home extends Component {
                   <li>EC2</li>
                 </ul>
                 <ul className="aws-services">
-                  <li>CloudFormation</li>
-                  <li>CDK</li>
-                  <li>CodeBuild</li>
-                  <li>CodeCommit</li>
-                  <li>CodeDeploy</li>
-                  <li>CodePipeline</li>
-                  <li>CloudWatch</li>
-                  <li>EC2</li>
+                  <li>ECS</li>
+                  <li>Fargate</li>
+                  <li>ECR</li>
+                  <li>EFS</li>
+                  <li>RDS</li>
+                  <li>DynamoDB</li>
+                  <li>S3</li>
+                  <li>ELB</li>
                 </ul>
                 <ul className="aws-services">
-                  <li>CloudFormation</li>
-                  <li>CDK</li>
-                  <li>CodeBuild</li>
-                  <li>CodeCommit</li>
-                  <li>CodeDeploy</li>
-                  <li>CodePipeline</li>
-                  <li>CloudWatch</li>
-                  <li>EC2</li>
+                  <li>ASG</li>
+                  <li>API Gateway</li>
+                  <li>Lambda</li>
+                  <li>AWS Config</li>
+                  <li>EventBridge</li>
+                  <li>SNS</li>
+                  <li>SQS</li>
+                  <li>Step Functions</li>
                 </ul>
               </div>
             </div>
