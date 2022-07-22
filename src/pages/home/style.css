@@ -178,8 +178,13 @@
 }
 
 .skill-name {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   text-align: center;
+}
+
+.skill-level {
+  text-align: center;
+  opacity: 70%;
 }
 
 @media screen and (min-width: 768px) {

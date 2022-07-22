@@ -111,6 +111,7 @@ class Home extends Component {
                         <use href={sprite + `#${skill.svgName}`}></use>
                       </svg>
                       <h3 className="skill-name">{skill.name}</h3>
+                      <h4 className="skill-level">{skill.level}</h4>
                     </div>
                   );
                 })}
