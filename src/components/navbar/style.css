@@ -40,3 +40,25 @@
     font-size: 2rem;
   }
 }
+
+.social-bg {
+  background-color: var(--color-primary);
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.social-link {
+  position: relative;
+  top: -2px;
+  margin-right: 2rem;
+  margin: 0 auto;
+}
+
+.social-link > img {
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.linkedin {
+  padding-left: 0.5rem;
+}
