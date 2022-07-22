@@ -1,21 +1,20 @@
-.nav-block {
-  padding: 0 1rem;
-}
-
 .nav-section {
+  left: 0;
   position: fixed;
+  width: 100vw;
   z-index: 9999;
-  width: 100%;
-  margin-top: 1rem;
+  background-color: hsla(196, 0%, 18%, 0.5);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem !important;
 }
 
 .nav__list {
+  align-items: center;
   display: flex;
   font-size: 1.5rem;
   max-height: 100%;
@@ -34,4 +33,10 @@
 
 .nav__item > a:hover {
   color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__list {
+    font-size: 2rem;
+  }
 }

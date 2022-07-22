@@ -1,14 +1,17 @@
 import React, { Component } from "react";
-import "./style.css"
+import "./style.css";
 
 class Footer extends Component {
   render() {
     return (
       <section className="footer-block">
         <footer className="container footer-container">
-          <h5>
-            Copyright © 2022 CDL - Designed and Developed by Christian De Leon
-          </h5>
+          <h4>
+            Copyright © 2022 CDL
+            <br />
+            <br />
+            Designed and Developed by Christian De Leon
+          </h4>
         </footer>
       </section>
     );
