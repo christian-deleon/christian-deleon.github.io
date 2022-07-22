@@ -10,7 +10,16 @@ class Footer extends Component {
             Copyright © 2022 CDL
             <br />
             <br />
-            Designed and Developed by Christian De Leon
+            Designed and Developed by Christian De Leon -{" "}
+            <span>
+              <a
+                href="https://github.com/christian-deleon/portfolio"
+                target="_blank"
+                className="github__footer"
+              >
+                GitHub Repo
+              </a>
+            </span>
           </h4>
         </footer>
       </section>

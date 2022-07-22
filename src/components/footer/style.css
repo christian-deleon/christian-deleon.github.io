@@ -12,3 +12,12 @@
 .footer-container > h4 {
   opacity: 80%;
 }
+
+.github__footer {
+  color: white;
+  text-decoration: underline;
+}
+
+.github__footer:hover {
+  color: white;
+}
