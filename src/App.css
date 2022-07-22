@@ -16,16 +16,16 @@ html {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 h4 {
@@ -42,6 +42,20 @@ p {
   padding-left: 0;
 }
 
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+}
+
 /* Links */
 
 a {
@@ -52,11 +66,11 @@ a {
 
 .block {
   padding: 0 2rem;
-  position: relative;
-  top: -70px;
 }
 
 .container {
+  position: relative;
+  z-index: 1;
   max-width: 1024px;
   margin: 0 auto;
 }
