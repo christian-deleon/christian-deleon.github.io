@@ -172,6 +172,7 @@
 
 .skill-badge {
   width: 100%;
+  max-height: 80px;
   filter: invert(78%) sepia(68%) saturate(5631%) hue-rotate(159deg)
     brightness(95%) contrast(97%);
 }
