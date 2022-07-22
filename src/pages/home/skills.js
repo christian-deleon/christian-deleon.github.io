@@ -13,8 +13,8 @@ const skills = [
   { name: "JavaScript", svgName: "javascript",  level: "Intermediate" },
   { name: "TypeScript", svgName: "typescript",  level: "Intermediate" },
   { name: "React",      svgName: "react",       level: "Intermediate" },
-  { name: "HTML 5",     svgName: "html-5",      level: "Intermediate" },
-  { name: "CSS 3",      svgName: "css3",        level: "Intermediate" },
+  { name: "HTML 5",     svgName: "html-5",      level: "Proficient" },
+  { name: "CSS 3",      svgName: "css3",        level: "Proficient" },
 ];
 
 export function getSkills() {

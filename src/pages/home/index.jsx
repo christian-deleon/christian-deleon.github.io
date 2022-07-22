@@ -37,7 +37,7 @@ class Home extends Component {
                 large complex efficient systems.
                 <br />
                 <br />
-                I believe in working above the baselivne of expectation by
+                I believe in working above the baseline of expectation by
                 always pushing myself to learn new and complex systems and
                 technologies.
                 <br />

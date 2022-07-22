@@ -221,3 +221,9 @@
 .skill-container:hover {
   transform: scale(1.1);
 }
+
+@media screen and (min-width: 1024px) {
+  .skills-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
