@@ -18,10 +18,10 @@ class NavBar extends Component {
               <li className="nav__item">
                 <Link to="/">Home</Link>
               </li>
-              {/* <li className="nav__item">
+              <li className="nav__item">
                 <Link to="/resume">Resume</Link>
               </li>
-              <li className="nav__item">
+              {/* <li className="nav__item">
                 <Link to="/contact">Contact</Link>
               </li> */}
               <span className="nav__item social-bg">
