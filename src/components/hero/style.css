@@ -1,0 +1,78 @@
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  overflow-y: visible;
+}
+
+.hero::before {
+  content: "";
+  background: url(../../assets/images/home-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 120%;
+}
+
+.hero-content {
+  position: relative;
+  color: white;
+  padding: 0 4rem;
+}
+
+.hero-content::before {
+  background-image: url(../../assets/images/cross.png);
+  background-size: cover;
+  content: "";
+  height: 40px;
+  left: 10px;
+  position: absolute;
+  top: -25px;
+  width: 40px;
+}
+
+.hero__heading,
+.hero__header-soft {
+  margin: 0;
+}
+
+.hero__header-soft {
+  font-size: 3rem;
+  font-weight: 400;
+  opacity: 60%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    height: 350px;
+  }
+
+  .hero-content {
+    padding: 0 5rem;
+  }
+
+  .hero-content::before {
+    height: 50px;
+    width: 50px;
+    left: 15px;
+    top: -30px;
+  }
+
+  .hero__heading {
+    font-size: 5rem;
+    font-weight: 500;
+  }
+
+  .hero__header-soft {
+    font-size: 4rem;
+    font-weight: 400;
+  }
+}

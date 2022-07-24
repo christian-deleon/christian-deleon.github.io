@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Infra1 from "../../assets/images/infra-1.png";
 import AWSCerts from "../../assets/images/aws-certs.png";
 import { getSkills } from "./skills";
+import Hero from "./../../components/hero/index";
 import sprite from "../../assets/svg/sprite.svg";
 import "./style.css";
 
@@ -13,13 +14,11 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <section className="hero">
-          <div className="container hero-content">
-            <h1 className="hero__header-soft">Hello, I'm</h1>
-            <h1 className="hero__heading">Christian De Leon</h1>
-            <h1 className="hero__header-soft">Cloud Engineer</h1>
-          </div>
-        </section>
+        <Hero>
+          <h1 className="hero__header-soft">Hello, I'm</h1>
+          <h1 className="hero__heading">Christian De Leon</h1>
+          <h1 className="hero__header-soft">Cloud Engineer</h1>
+        </Hero>
 
         <section className="block">
           <div className="container grid grid--1x2 about-container">
@@ -37,8 +36,8 @@ class Home extends Component {
                 large complex efficient systems.
                 <br />
                 <br />
-                I believe in working above the baseline of expectation by
-                always pushing myself to learn new and complex systems and
+                I believe in working above the baseline of expectation by always
+                pushing myself to learn new and complex systems and
                 technologies.
                 <br />
                 <br />
