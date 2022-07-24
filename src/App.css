@@ -65,7 +65,7 @@ a {
 /* Blocks */
 
 .block {
-  padding: 0 2rem;
+  margin: 2rem 2rem;
 }
 
 .container {

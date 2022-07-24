@@ -47,7 +47,9 @@ class Home extends Component {
             </div>
             <img src={Infra1} alt="" className="about-image" />
           </div>
+        </section>
 
+        <section className="block">
           <div className="container grid grid--1x2 about-container">
             <img src={AWSCerts} alt="" className="about-image" />
             <div className="about__content">
@@ -96,7 +98,9 @@ class Home extends Component {
               </div>
             </div>
           </div>
+        </section>
 
+        <section className="block">
           <div className="container about-container skills-container">
             <div className="about__content">
               <h2 className="skills__heading">
