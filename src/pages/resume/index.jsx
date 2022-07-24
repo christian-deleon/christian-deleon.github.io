@@ -21,7 +21,7 @@ function Resume() {
     <React.Fragment>
       <Hero>
         <h1 className="hero__heading">Resume</h1>
-        <a href={PDFFile} target="_blank">
+        <a href={PDFFile} download>
           <button className="download-btn">Download</button>
         </a>
       </Hero>
