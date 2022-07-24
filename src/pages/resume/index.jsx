@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import Hero from "./../../components/hero/index";
+import PDFFile from "../../assets/resume.pdf";
 import "./style.css";
 
 function Resume() {
@@ -20,21 +21,26 @@ function Resume() {
     <React.Fragment>
       <Hero>
         <h1 className="hero__heading">Resume</h1>
+        <a href={PDFFile} target="_blank">
+          <button className="download-btn">Download</button>
+        </a>
       </Hero>
 
       <section className="block">
         <div className="container pdf-container">
-          <Document
-            className="pdf-document"
-            file="./resume.pdf"
-            onLoadSuccess={onDocumentLoadSuccess}
-          >
-            <Page
-              pageNumber={pageNumber}
-              renderTextLayer={false}
-              scale={width > 792 ? 1.3 : 1}
-            />
-          </Document>
+          <a href={PDFFile} target="_blank">
+            <Document
+              className="pdf-document"
+              file={PDFFile}
+              onLoadSuccess={onDocumentLoadSuccess}
+            >
+              <Page
+                pageNumber={pageNumber}
+                renderTextLayer={false}
+                scale={width > 792 ? 1.7 : 1}
+              />
+            </Document>
+          </a>
         </div>
       </section>
     </React.Fragment>
