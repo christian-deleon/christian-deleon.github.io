@@ -17,7 +17,7 @@ class Home extends Component {
         <Hero>
           <h1 className="hero__header-soft">Hello, I'm</h1>
           <h1 className="hero__heading">Christian De Leon</h1>
-          <h1 className="hero__header-soft">Cloud Engineer</h1>
+          <h1 className="hero__header-soft">DevOps Engineer</h1>
         </Hero>
 
         <section className="block">
