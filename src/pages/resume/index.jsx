@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import Hero from "./../../components/hero/index";
-import PDFFile from "../../assets/resume.pdf";
+import PDFFile from "../../assets/christian_deleon_resume_site.pdf";
 import "./style.css";
 
 function Resume() {
@@ -37,7 +37,7 @@ function Resume() {
               <Page
                 pageNumber={pageNumber}
                 renderTextLayer={false}
-                scale={width > 792 ? 1.7 : 1}
+                scale={width > 792 ? 2 : 1}
               />
             </Document>
           </a>
