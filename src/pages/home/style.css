@@ -33,11 +33,7 @@
   font-size: 3rem;
 }
 
-.about__content > p {
-  opacity: 80%;
-}
-
-.heading-highlight {
+.highlight {
   color: var(--color-primary);
 }
 
@@ -81,6 +77,16 @@
   .about-image {
     max-height: 400px;
   }
+}
+
+/* Projects */
+
+.portfolio-btn {
+  margin-right: 1rem !important;
+}
+
+.portfolio-btn-text {
+  font-size: 2rem;
 }
 
 /* Skills */

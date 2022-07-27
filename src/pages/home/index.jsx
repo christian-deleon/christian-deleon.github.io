@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Infra1 from "../../assets/images/infra-1.png";
+import Infra2 from "../../assets/images/infra-2.png";
+import Button from "./../../components/button/index";
 import AWSCerts from "../../assets/images/aws-certs.png";
 import { getSkills } from "./skills";
 import Hero from "./../../components/hero/index";
@@ -24,8 +26,7 @@ class Home extends Component {
           <div className="container grid grid--1x2 about-container">
             <div className="about__content">
               <h2 className="about__heading">
-                LET ME <span className="heading-highlight">INTRODUCE</span>{" "}
-                MYSELF
+                LET ME <span className="highlight">INTRODUCE</span> MYSELF
               </h2>
               <p>
                 I'm on a journey to master Cloud Computing, DevOps, and Software
@@ -54,7 +55,7 @@ class Home extends Component {
             <img src={AWSCerts} alt="" className="about-image" />
             <div className="about__content">
               <h2 className="about__heading">
-                AWS <span className="heading-highlight">CERTIFIED</span>
+                AWS <span className="highlight">CERTIFIED</span>
               </h2>
               <p>
                 I currently hold five active AWS Certifications and I'm
@@ -101,10 +102,49 @@ class Home extends Component {
         </section>
 
         <section className="block">
+          <div className="container grid grid--1x2 about-container">
+            <div className="about__content">
+              <h2 className="about__heading">
+                MY <span className="highlight">PROJECTS</span>
+              </h2>
+              <p>
+                To show off my{" "}
+                <span className="highlight">Infrastructure as Code</span>{" "}
+                skills. I have created multiple GitHub repositories detailing
+                how I designed and deployed the infrastructure running this
+                website. And for all my other projects please visit my GitHub
+                profile.
+                <br />
+                <br />
+                <a
+                  href="https://github.com/christian-deleon/portfolio-iac"
+                  target="_blank"
+                  className="portfolio-btn"
+                >
+                  <Button>
+                    <span className="portfolio-btn-text">Repository</span>
+                  </Button>
+                </a>
+                <a
+                  href="https://github.com/christian-deleon"
+                  target="_blank"
+                  className="portfolio-btn"
+                >
+                  <Button>
+                    <span className="portfolio-btn-text">GitHub Profile</span>
+                  </Button>
+                </a>
+              </p>
+            </div>
+            <img src={Infra2} alt="" className="about-image" />
+          </div>
+        </section>
+
+        <section className="block">
           <div className="container about-container skills-container">
             <div className="about__content">
               <h2 className="skills__heading">
-                MY <span className="heading-highlight">SKILLSET</span>
+                MY <span className="highlight">SKILLSET</span>
               </h2>
               <div className="skills-grid">
                 {this.state.skills.map((skill) => {
