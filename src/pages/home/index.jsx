@@ -33,12 +33,24 @@ class Home extends Component {
                 Development.
                 <br />
                 <br />
+                Been <span className="highlight">
+                  programming for 8+ years
+                </span>{" "}
+                and{" "}
+                <span className="highlight">
+                  developing cloud applications for 4+ years
+                </span>
+                .
+                <br />
+                <br />
                 My interest in cloud computing stemmed from a desire to build
                 large complex efficient systems.
                 <br />
-                <br />
-                I believe in working above the baseline of expectation by always
-                pushing myself to learn new and complex systems and
+                <br />I believe in{" "}
+                <span className="highlight">
+                  working above the baseline of expectation
+                </span>{" "}
+                by always pushing myself to learn new and complex systems and
                 technologies.
                 <br />
                 <br />

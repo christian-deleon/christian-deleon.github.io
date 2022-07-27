@@ -35,6 +35,8 @@
 
 .highlight {
   color: var(--color-primary);
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 /* AWS Certs */
