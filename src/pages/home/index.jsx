@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Infra1 from "../../assets/images/infra-1.png";
 import Infra2 from "../../assets/images/infra-2.png";
-import Button from "./../../components/button/index";
+import MyButton from "./../../components/button/index";
 import AWSCerts from "../../assets/images/aws-certs.png";
 import { getSkills } from "./skills";
 import Hero from "./../../components/hero/index";
@@ -121,18 +121,18 @@ class Home extends Component {
                   target="_blank"
                   className="portfolio-btn"
                 >
-                  <Button>
+                  <MyButton>
                     <span className="portfolio-btn-text">Repository</span>
-                  </Button>
+                  </MyButton>
                 </a>
                 <a
                   href="https://github.com/christian-deleon"
                   target="_blank"
                   className="portfolio-btn"
                 >
-                  <Button>
+                  <MyButton>
                     <span className="portfolio-btn-text">GitHub Profile</span>
-                  </Button>
+                  </MyButton>
                 </a>
               </p>
             </div>

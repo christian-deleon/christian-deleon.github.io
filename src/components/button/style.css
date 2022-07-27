@@ -1,4 +1,4 @@
-.btn {
+.my-btn {
   background-color: var(--color-primary);
   border-radius: 5px;
   border: none;
@@ -6,7 +6,7 @@
   opacity: 92%;
 }
 
-.btn:hover{
+.my-btn:hover{
   background-color: var(--color-primary);
   color: white;
   opacity: 100%;
