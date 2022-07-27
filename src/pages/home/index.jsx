@@ -112,7 +112,7 @@ class Home extends Component {
                 <span className="highlight">Infrastructure as Code</span>{" "}
                 skills. I have created multiple GitHub repositories detailing
                 how I designed and deployed the infrastructure running this
-                website. And for all my other projects please visit my GitHub
+                website. For all my other projects please visit my GitHub
                 profile.
                 <br />
                 <br />
