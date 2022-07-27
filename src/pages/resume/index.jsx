@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
 import Hero from "./../../components/hero/index";
+import Button from "./../../components/button/index";
 import PDFFile from "../../assets/christian_deleon_resume_site.pdf";
 import "./style.css";
 
@@ -22,7 +23,9 @@ function Resume() {
       <Hero>
         <h1 className="hero__heading">Resume</h1>
         <a href={PDFFile} download>
-          <button className="download-btn">Download</button>
+          <Button>
+            <span className="btn-text">Download</span>
+          </Button>
         </a>
       </Hero>
 
