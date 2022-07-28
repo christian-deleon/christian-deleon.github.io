@@ -38,7 +38,7 @@ class Home extends Component {
                 </span>{" "}
                 and{" "}
                 <span className="highlight">
-                  developing cloud applications for 4+ years
+                  developing cloud infrastructure for 4+ years
                 </span>
                 .
                 <br />
