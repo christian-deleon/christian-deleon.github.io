@@ -39,48 +39,6 @@
   text-transform: capitalize;
 }
 
-/* AWS Certs */
-
-.aws-services__list {
-  margin-top: 1rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  font-size: 1.4rem;
-  max-lines: 8;
-}
-
-.aws-services__list > ul {
-  margin: 0;
-  opacity: 80%;
-}
-
-.aws-services {
-  margin: 1rem 0 0 0;
-}
-
-@media screen and (max-width: 767px) {
-  .about-image:nth-child(odd) {
-    grid-row: 2;
-  }
-
-  .about-image {
-    padding-top: 0;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .aws-services__list {
-    flex-direction: row;
-  }
-
-  .about-image {
-    max-height: 400px;
-  }
-}
-
 /* Projects */
 
 .portfolio-btn {
@@ -89,6 +47,33 @@
 
 .portfolio-btn-text {
   font-size: 2rem;
+}
+
+/* Certs */
+
+.certs {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-items: center;
+  gap: 10px;
+  padding: 1rem 0;
+}
+
+.certs > img {
+  max-height: 150px;
+}
+
+.certs-container > p {
+  text-align: center;
+  opacity: 85%;
+}
+
+@media screen and (min-width: 768px) {
+  .certs > img {
+    max-height: 200px;
+  }
 }
 
 /* Skills */

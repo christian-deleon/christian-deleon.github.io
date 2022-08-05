@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Infra1 from "../../assets/images/infra-1.png";
 import Infra2 from "../../assets/images/infra-2.png";
 import MyButton from "./../../components/button/index";
-import AWSCerts from "../../assets/images/aws-certs.png";
 import { getSkills } from "./skills";
 import Hero from "./../../components/hero/index";
 import sprite from "../../assets/svg/sprite.svg";
@@ -64,57 +63,7 @@ class Home extends Component {
 
         <section className="block">
           <div className="container grid grid--1x2 about-container">
-            <img src={AWSCerts} alt="" className="about-image" />
-            <div className="about__content">
-              <h2 className="about__heading">
-                AWS <span className="highlight">CERTIFIED</span>
-              </h2>
-              <p>
-                I currently hold five active AWS Certifications and I'm
-                currently preparing for my Solutions Architect Professional.
-                <br />
-                <br />
-                With a good understanding of all AWS services, I have an
-                extensive amount of exprience with the following products:
-              </p>
-              <div className="aws-services__list">
-                <ul className="aws-services">
-                  <li>CloudFormation</li>
-                  <li>CDK</li>
-                  <li>CodeBuild</li>
-                  <li>CodeCommit</li>
-                  <li>CodeDeploy</li>
-                  <li>CodePipeline</li>
-                  <li>CloudWatch</li>
-                  <li>EC2</li>
-                </ul>
-                <ul className="aws-services">
-                  <li>ECS</li>
-                  <li>Fargate</li>
-                  <li>ECR</li>
-                  <li>EFS</li>
-                  <li>RDS</li>
-                  <li>DynamoDB</li>
-                  <li>S3</li>
-                  <li>ELB</li>
-                </ul>
-                <ul className="aws-services">
-                  <li>ASG</li>
-                  <li>API Gateway</li>
-                  <li>Lambda</li>
-                  <li>AWS Config</li>
-                  <li>EventBridge</li>
-                  <li>SNS</li>
-                  <li>SQS</li>
-                  <li>Step Functions</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section className="block">
-          <div className="container grid grid--1x2 about-container">
+            <img src={Infra2} alt="" className="about-image" />
             <div className="about__content">
               <h2 className="about__heading">
                 MY <span className="highlight">PROJECTS</span>
@@ -148,7 +97,37 @@ class Home extends Component {
                 </a>
               </p>
             </div>
-            <img src={Infra2} alt="" className="about-image" />
+          </div>
+        </section>
+
+        <section className="block">
+          <div className="container about-container skills-container">
+            <div className="about__content certs-container">
+              <h2 className="skills__heading">
+                ACTIVE <span className="highlight">CERTIFICATIONS</span>
+              </h2>
+              <br />
+              <div className="certs">
+                <img src="./badges/terraform.png" alt="" />
+                <img src="./badges/aws_devops.png" alt="" />
+                <img src="./badges/aws_sa.png" alt="" />
+                <img src="./badges/aws_dev.png" alt="" />
+                <img src="./badges/aws_sysops.png" alt="" />
+              </div>
+              <br />
+              <br />
+              <br />
+              <h2 className="skills__heading">
+                CERTIFICATION <span className="highlight">ROADMAP</span>
+              </h2>
+              <p>These are certifications that I am currently studying for.</p>
+              <br />
+              <div className="certs">
+                <img src="./badges/ckad.png" alt="" />
+                <img src="./badges/azure_devops.png" alt="" />
+                <img src="./badges/gcp_devops.png" alt="" />
+              </div>
+            </div>
           </div>
         </section>
 
