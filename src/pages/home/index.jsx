@@ -203,13 +203,18 @@ class Home extends Component {
                   className="cert-badge"
                 />
                 <img
+                  src="./badges/rhce.png"
+                  alt="Red Hat Certified Engineer Certification Badge"
+                  className="cert-badge"
+                />
+                <img
                   src="./badges/azure_devops.png"
-                  alt="AWS DevOps Certification Badge"
+                  alt="Microsoft Certified: DevOps Engineer Expert Badge"
                   className="cert-badge"
                 />
                 <img
                   src="./badges/gcp_devops.png"
-                  alt="AWS DevOps Certification Badge"
+                  alt="Professional Cloud DevOps Engineer Badge"
                   className="cert-badge"
                 />
               </div>
