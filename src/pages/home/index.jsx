@@ -106,13 +106,87 @@ class Home extends Component {
               <h2 className="skills__heading">
                 ACTIVE <span className="highlight">CERTIFICATIONS</span>
               </h2>
+              <p>Click a badge to validate.</p>
               <br />
               <div className="certs">
-                <img src="./badges/terraform.png" alt="" />
-                <img src="./badges/aws_devops.png" alt="" />
-                <img src="./badges/aws_sa.png" alt="" />
-                <img src="./badges/aws_dev.png" alt="" />
-                <img src="./badges/aws_sysops.png" alt="" />
+                <div>
+                  <a
+                    href="https://aw.certmetrics.com/amazon/public/verification.aspx"
+                    target="_blank"
+                  >
+                    <img
+                      src="./badges/aws_devops.png"
+                      alt="AWS DevOps Certification Badge"
+                      className="cert-badge"
+                    />
+                  </a>
+                  <p className="cert-validation">
+                    Validation Number
+                    <br />
+                    S57CKF5BNEB4QB94
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://aw.certmetrics.com/amazon/public/verification.aspx"
+                    target="_blank"
+                  >
+                    <img
+                      src="./badges/aws_sa.png"
+                      alt="AWS Solutions Architect Certification Badge"
+                      className="cert-badge"
+                    />
+                  </a>
+                  <p className="cert-validation">
+                    Validation Number
+                    <br />
+                    C0QK9DKL31441EG5
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://aw.certmetrics.com/amazon/public/verification.aspx"
+                    target="_blank"
+                  >
+                    <img
+                      src="./badges/aws_dev.png"
+                      alt="AWS Developer Certification Badge"
+                      className="cert-badge"
+                    />
+                  </a>
+                  <p className="cert-validation">
+                    Validation Number
+                    <br />
+                    2X0K597DGF1E11SJ
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href="https://aw.certmetrics.com/amazon/public/verification.aspx"
+                    target="_blank"
+                  >
+                    <img
+                      src="./badges/aws_sysops.png"
+                      alt="AWS SysOps Certification Badge"
+                      className="cert-badge"
+                    />
+                  </a>
+                  <p className="cert-validation">
+                    Validation Number
+                    <br />
+                    S1KQKMJLPNQEQVGZ
+                  </p>
+                </div>
+                <a
+                  href="https://www.credly.com/badges/42dc9f15-1dfa-497e-8759-b00b865c3448/linked_in?t=rg4edp"
+                  target="_blank"
+                >
+                  <img
+                    src="./badges/terraform.png"
+                    alt="HashiCorp Certified: Terraform Associate Badge"
+                    className="cert-badge"
+                  />
+                </a>
               </div>
               <br />
               <br />
@@ -123,9 +197,21 @@ class Home extends Component {
               <p>These are certifications that I am currently studying for.</p>
               <br />
               <div className="certs">
-                <img src="./badges/ckad.png" alt="" />
-                <img src="./badges/azure_devops.png" alt="" />
-                <img src="./badges/gcp_devops.png" alt="" />
+                <img
+                  src="./badges/ckad.png"
+                  alt="AWS DevOps Certification Badge"
+                  className="cert-badge"
+                />
+                <img
+                  src="./badges/azure_devops.png"
+                  alt="AWS DevOps Certification Badge"
+                  className="cert-badge"
+                />
+                <img
+                  src="./badges/gcp_devops.png"
+                  alt="AWS DevOps Certification Badge"
+                  className="cert-badge"
+                />
               </div>
             </div>
           </div>
@@ -140,7 +226,7 @@ class Home extends Component {
               <div className="skills-grid">
                 {this.state.skills.map((skill) => {
                   return (
-                    <div className="skill-container">
+                    <div className="skill-container badge-hover">
                       <svg className="skill-badge">
                         <use href={sprite + `#${skill.svgName}`}></use>
                       </svg>
