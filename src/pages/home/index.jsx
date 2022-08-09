@@ -197,26 +197,54 @@ class Home extends Component {
               <p>These are certifications that I am currently studying for.</p>
               <br />
               <div className="certs">
-                <img
-                  src="./badges/ckad.png"
-                  alt="AWS DevOps Certification Badge"
-                  className="cert-badge"
-                />
-                <img
-                  src="./badges/rhce.png"
-                  alt="Red Hat Certified Engineer Certification Badge"
-                  className="cert-badge"
-                />
-                <img
-                  src="./badges/azure_devops.png"
-                  alt="Microsoft Certified: DevOps Engineer Expert Badge"
-                  className="cert-badge"
-                />
-                <img
-                  src="./badges/gcp_devops.png"
-                  alt="Professional Cloud DevOps Engineer Badge"
-                  className="cert-badge"
-                />
+                <div>
+                  <img
+                    src="./badges/ckad.png"
+                    alt="AWS DevOps Certification Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    August 2022
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="./badges/rhce.png"
+                    alt="Red Hat Certified Engineer Certification Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    September 2022
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="./badges/azure_devops.png"
+                    alt="Microsoft Certified: DevOps Engineer Expert Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    September 2022
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="./badges/gcp_devops.png"
+                    alt="Professional Cloud DevOps Engineer Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    October 2022
+                  </p>
+                </div>
               </div>
             </div>
           </div>
