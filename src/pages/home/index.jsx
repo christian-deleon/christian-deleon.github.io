@@ -223,6 +223,18 @@ class Home extends Component {
                 </div>
                 <div>
                   <img
+                    src="./badges/azure_developer.png"
+                    alt="Microsoft Certified: Azure Developer Associate"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    September 2022
+                  </p>
+                </div>
+                <div>
+                  <img
                     src="./badges/azure_devops.png"
                     alt="Microsoft Certified: DevOps Engineer Expert Badge"
                     className="cert-badge"
@@ -230,7 +242,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    October 2022
                   </p>
                 </div>
                 <div>
@@ -242,7 +254,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    October 2022
+                    November 2022
                   </p>
                 </div>
               </div>
