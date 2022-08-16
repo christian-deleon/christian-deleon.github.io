@@ -200,13 +200,37 @@ class Home extends Component {
                 <div>
                   <img
                     src="./badges/ckad.png"
-                    alt="AWS DevOps Certification Badge"
+                    alt="Certified Kubernetes Application Developer Badge"
                     className="cert-badge"
                   />
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
                     August 2022
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="./badges/jenkins.png"
+                    alt="Certified Jenkins Engineer Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    August 2022
+                  </p>
+                </div>
+                <div>
+                  <img
+                    src="./badges/prometheus.png"
+                    alt="Prometheus Certified Associate Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    September 2022
                   </p>
                 </div>
                 <div>
@@ -230,7 +254,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    October 2022
                   </p>
                 </div>
                 <div>
@@ -254,7 +278,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    October 2022
+                    November 2022
                   </p>
                 </div>
                 <div>
@@ -266,7 +290,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    November 2022
+                    December 2022
                   </p>
                 </div>
               </div>
