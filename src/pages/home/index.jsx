@@ -211,6 +211,18 @@ class Home extends Component {
                 </div>
                 <div>
                   <img
+                    src="./badges/rhcsa.png"
+                    alt="Red Hat Certified System Administrator Badge"
+                    className="cert-badge"
+                  />
+                  <p className="cert-validation">
+                    Estimated Completion
+                    <br />
+                    September 2022
+                  </p>
+                </div>
+                <div>
+                  <img
                     src="./badges/rhce.png"
                     alt="Red Hat Certified Engineer Certification Badge"
                     className="cert-badge"
@@ -224,13 +236,13 @@ class Home extends Component {
                 <div>
                   <img
                     src="./badges/azure_developer.png"
-                    alt="Microsoft Certified: Azure Developer Associate"
+                    alt="Microsoft Certified: Azure Developer Associate Badge"
                     className="cert-badge"
                   />
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    October 2022
                   </p>
                 </div>
                 <div>
