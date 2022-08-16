@@ -15,7 +15,7 @@
 
 .about-image {
   height: auto;
-  padding: 5rem 3rem;
+  /* padding: 5rem 3rem; */
   justify-self: center;
   align-self: center;
   max-width: 100%;
