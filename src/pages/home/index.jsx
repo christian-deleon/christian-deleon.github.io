@@ -187,6 +187,16 @@ class Home extends Component {
                     className="cert-badge"
                   />
                 </a>
+                <a
+                  href="https://www.credly.com/badges/9ecddcc4-618d-4184-9544-0bde62b73558/public_url"
+                  target="_blank"
+                >
+                  <img
+                    src="./badges/ckad.png"
+                    alt="Certified Kubernetes Application Developer Badge"
+                    className="cert-badge"
+                  />
+                </a>
               </div>
               <br />
               <br />
@@ -199,18 +209,6 @@ class Home extends Component {
               <div className="certs">
                 <div>
                   <img
-                    src="./badges/ckad.png"
-                    alt="Certified Kubernetes Application Developer Badge"
-                    className="cert-badge"
-                  />
-                  <p className="cert-validation">
-                    Estimated Completion
-                    <br />
-                    August 2022
-                  </p>
-                </div>
-                <div>
-                  <img
                     src="./badges/jenkins.png"
                     alt="Certified Jenkins Engineer Badge"
                     className="cert-badge"
@@ -218,7 +216,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    August 2022
+                    September 2022
                   </p>
                 </div>
                 <div>
@@ -254,7 +252,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    October 2022
+                    September 2022
                   </p>
                 </div>
                 <div>
@@ -278,7 +276,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    November 2022
+                    October 2022
                   </p>
                 </div>
                 <div>
@@ -290,7 +288,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    December 2022
+                    November 2022
                   </p>
                 </div>
               </div>
