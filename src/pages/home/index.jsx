@@ -216,7 +216,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -228,7 +228,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -240,7 +240,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -252,7 +252,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    September 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -264,7 +264,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    October 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -276,7 +276,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    October 2022
+                    TBD
                   </p>
                 </div>
                 <div>
@@ -288,7 +288,7 @@ class Home extends Component {
                   <p className="cert-validation">
                     Estimated Completion
                     <br />
-                    November 2022
+                    TBD
                   </p>
                 </div>
               </div>
