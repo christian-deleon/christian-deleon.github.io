@@ -38,7 +38,7 @@ The this portfolio was designed and developed by me using React.Js, Javascript, 
   docker compose up --build --detach
   ```
 
-4. Open your browser and go to http://localhost:3000
+4. Go to http://localhost:3000
 
 ### Stop the project
 
