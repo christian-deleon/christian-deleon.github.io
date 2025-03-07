@@ -12,7 +12,15 @@ class Home extends Component {
     skills: getSkills(),
   };
 
+  calculateExperience = (startYear) => {
+    const currentYear = new Date().getFullYear();
+    return currentYear - startYear;
+  };
+
   render() {
+    const programmingYears = this.calculateExperience(2007);
+    const cloudYears = this.calculateExperience(2018);
+
     return (
       <React.Fragment>
         <Hero>
@@ -32,12 +40,13 @@ class Home extends Component {
                 Development.
                 <br />
                 <br />
-                Been <span className="highlight">
-                  programming for 8+ years
+                Been{" "}
+                <span className="highlight">
+                  programming for {programmingYears}+ years
                 </span>{" "}
                 and{" "}
                 <span className="highlight">
-                  developing cloud infrastructure for 4+ years
+                  developing cloud infrastructure for {cloudYears}+ years
                 </span>
                 .
                 <br />

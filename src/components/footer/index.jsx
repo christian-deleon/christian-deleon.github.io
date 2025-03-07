@@ -3,11 +3,13 @@ import "./style.css";
 
 class Footer extends Component {
   render() {
+    const currentYear = new Date().getFullYear();
+
     return (
       <section className="footer-block">
         <footer className="container footer-container">
           <h4>
-            Copyright © 2022 CDL
+            Copyright © {currentYear} CDL
             <br />
             <br />
             Designed and Developed by Christian De Leon -{" "}
