@@ -218,30 +218,6 @@ class Home extends Component {
               <div className="certs">
                 <div>
                   <img
-                    src="./badges/jenkins.png"
-                    alt="Certified Jenkins Engineer Badge"
-                    className="cert-badge"
-                  />
-                  <p className="cert-validation">
-                    Estimated Completion
-                    <br />
-                    TBD
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="./badges/prometheus.png"
-                    alt="Prometheus Certified Associate Badge"
-                    className="cert-badge"
-                  />
-                  <p className="cert-validation">
-                    Estimated Completion
-                    <br />
-                    TBD
-                  </p>
-                </div>
-                <div>
-                  <img
                     src="./badges/rhcsa.png"
                     alt="Red Hat Certified System Administrator Badge"
                     className="cert-badge"
@@ -256,18 +232,6 @@ class Home extends Component {
                   <img
                     src="./badges/rhce.png"
                     alt="Red Hat Certified Engineer Certification Badge"
-                    className="cert-badge"
-                  />
-                  <p className="cert-validation">
-                    Estimated Completion
-                    <br />
-                    TBD
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="./badges/azure_developer.png"
-                    alt="Microsoft Certified: Azure Developer Associate Badge"
                     className="cert-badge"
                   />
                   <p className="cert-validation">
