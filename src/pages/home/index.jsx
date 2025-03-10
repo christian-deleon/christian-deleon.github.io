@@ -19,7 +19,7 @@ class Home extends Component {
 
   render() {
     const programmingYears = this.calculateExperience(2007);
-    const cloudYears = this.calculateExperience(2018);
+    const cloudYears = this.calculateExperience(2016);
 
     return (
       <React.Fragment>
